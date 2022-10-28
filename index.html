@@ -8,17 +8,15 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="assets/fontawsome/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,400;0,700;1,700&family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d49113e29c.js" crossorigin="anonymous"></script>
     <title>Test-Pro</title>
   </head>
   <body class="container">
     <header class="sticky-top">
-
-       
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
     
       <div class="container-fluid">
         <a class="navbar-brand " href="#"><img src="img/logo (2).png" alt="company-logo" class="logo"></a>
@@ -28,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-dark text-white">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,28 +38,28 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Events
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#speakers">speakers</a></li>
-                <li><a class="dropdown-item" href="#skin-care">other item</a></li>
+                <li><a class="dropdown-item" href="#Events">Events</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#herbs">2nd item</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact us</a></li>
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="#" href="#">About Us</a>
+              <a class="nav-link active" aria-current="#about" href="#about">About Us</a>
             </li>
        </ul>
         </div>
       </div>
     </nav>
     </header>
-</body>
+
 <!--this is my hero(carousel imgs)================= check if it's cklicable===-->
-<body>
+  <div class="container">
 <div id="carousel-Captions" class="carousel slide data-bs-slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel-Captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -103,122 +101,188 @@
 <div class= "order d-flex justify-content-center align-items-cente mt-5 ">
   <button type="button" class="btn btn-lg btn-success">order now!</button>
 </div> 
-
-<!-- here  I will put our products   ====================-->
+<!--flowers================================-->
 <section>
-      <div id="flowers" class="slide text-center d-flex flex-column justify-content-center mt-5 ">
-        <p1>We have variety of flowers you can order online or check our store around you! </p1>
-
-      <div id="flower-card" class="row d-flex flex-column flex-lg-row">
-        <div class="flower-card col">
-          <img src="img/flowers-1.jpg" alt="">
-          <h3>mixed </h3>
-          <p>$20</p>
-        </div>
-
-        <div class="flower-card col">
-          <img src="img/flowers-2.png" alt="">
-          <h3></h2>Roses</h2>
-            <p>$20</p>
-          
-        </div>
-
-        <div class="flower-card col">
-          <img src="img/flowers-3.png" alt="">
-          <h3>yellow</h3>
-          <p>$10</p>
-        </div>
-
-        <div class="flower-card col">
-          <img src="img/flowers-4.png" alt="">
-          <h3>Red roses</h3>
-          <p>$15</p> 
-        </div>
-      </div>
-     </div>
-    </section>
-<!--Our herbs are here======================-->
-<section>
-<div id="herbs" class="slide text-center d-flex flex-column justify-content-center mt-1">
-  <p1>We have variety of herbs  you can order online or check our store around you! </p1>
-
- <div id="herb-card" class="row d-flex flex-column flex-lg-row">
-    <div class="herbs-card col">
-      <img src="img/tea.png" alt="">
-      <h3>mixed </h3>
-      <p>$20</p>
-    </div>
-        <div class="herbs-card col">
-        <img src="img/tea2.png" alt="">
-        <h3>mixed </h3>
-        <p>$20</p>
-      </div>
-
-        <div class="herbs-card col">
-          <img src="img/suppliments.png" alt="">
-          <h3>mixed </h3>
-          <p>$20</p>
-        </div>  
-
-            <div class="herbs-card col">
-              <img src="img/flowertea.png" alt="">
-              <h3>mixed </h3>
-              <p>$20</p>
-            </div>
-
-            <div class="herbs-card col">
-              <img src="img/ather-tea(3).png" alt="">
-              <h3>mixed </h3>
-              <p>$20</p>
-            </div>
-
+<div class="flower-container mt-5">
+  <div class="row d-flex flex-column flex-lg-row">
+    <div class="col">
+      <div class="card">
+        <img src="img/flower-7.jpg" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>Lorem ipsum dolor</h5>
+            <p class="card-text"></p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+     <div class="col">
+      <div class="card col">
+        <img src="img/flower-6.jpg" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>Lorem ipsum dolor</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div><div class="col">
+     <div class="card">
+     <img src="img/flowers-1.jpg" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>Lorem ipsum dolor</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!--herbs================================-->
+<section>
+<div class="herbs-container slide text-center d-flex flex-column justify-content-center mt-5">
+  <p1 >We have variety of herbs  you can order online or check our store around you! </p1>
+  <div class="row row d-flex flex-column flex-lg-row">
+    <div class="col">
+      <div class="card">
+        <img src="img/flowertea.png" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>Lorem  dolor</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="col">
+      <div class="card">
+        <img src="img/redF-tea.png" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>Lorem ipsum</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/tea.png" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5> ipsum dolor</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div> <div class="col">
+      <div class="card">
+        <img src="img/tea2.png" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>Lorem, ipsum.</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="col">
+      <div class="card">
+        <img src="img/suppliments.png" alt="flower list" class="card-img-top">
+        <div class="card-body">
+          <div class="card-title">
+            <h5>ipsum dolor</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</section>
 <!-- our skin care products===========================-->
-
-        <div id="skin-care" class="slide text-center d-flex flex-column justify-content-center mt-2">
-          <p1>We have variety of herbs  you can order online or check our store around you! </p1>
-        
-        <div id="skinpr-card" class="row d-flex flex-column flex-lg-row">
-            <div class="skinpr-card col">
-              <img src="img/essential-oils2.png" alt="">
-              <h3>mixed </h3>
-              <p>$20</p>
+<section>
+  <div class="skin-care-container slide text-center d-flex flex-column justify-content-center  mt-5">
+    <p1 >We have variety of herbs  you can order online or check our store around you! </p1>
+    <div  class ="card row d-flex flex-column flex-lg-row">
+      <div class="col">
+    <div class="card">
+          <img src="img/skin-care1.jpg" alt="skin-care list" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Lorem  dolor</h5>
+              <p class="card-text"></p>
             </div>
-              <div class="skinpr-card col">
-                <img src="img/rosewater.jpg" alt="">
-                <h3>mixed </h3>
-                <p>$20</p>
-              </div>
-        
-                <div class="skinpr-card col">
-                  <img src="img/essential-oils.jpg" alt="">
-                  <h3>mixed </h3>
-                  <p>$20</p>
-                </div>  
-        
-                    <div class="skinpr-card col">
-                      <img src="img/lotions.png" alt="Leon Hanson">
-                      <h3>mixed </h3>
-                      <p>$20</p>
-                    </div>
-        
-                    <div class="skinpr-card col">
-                      <img src="img/sereum.png" alt="Leon Hanson">
-                      <h3>mixed </h3>
-                      <p>$20</p>
-                    </div>
-
-                    <div class="skinpr-card col">
-                      <img src="img/skincare-oil2.png" alt="Leon Hanson">
-                      <h3>mixed </h3>
-                      <p>$20</p>
-                    </div>
-                  </div>
+          </div>
+        </div>
+      </div>
+       
+        <div class=" col">
+          <div class="card">
+          <img src="img/sereum.png" alt="flower list" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Lorem ipsum</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+    </div>
+   <div class="col">
+        <div class="card">
+          <img src="img/skincare-4.jpg" alt="flower list" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Lorem dolor</h5>
+              <p class="card-text align-items-cente justify-content-center"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/cream.jpg" alt="flower list" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h5> ipsum dolor</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div> <div class="col">
+        <div class="card">
+          <img src="img/salt.jpg" alt="flower list" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Lorem, ipsum.</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="col">
+        <div class="card">
+          <img src="img/lotion.jpg" alt="flower list" class="card-img-top">
+          <div class="card-body">
+            <div class="card-title">
+              <h5>ipsum dolor</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
-<!--====================here is our events-->
+  </div>
+  </section>
 
+<!--our more button============================-->
+
+<div class= "order d-flex justify-content-center align-items-cente mt-5 ">
+  <button type="button" class="btn btn-lg btn-success">More </button>
+</div>
 <section>
 <div id="speakers" class="slide text-center d-flex flex-column justify-content-center  mt-5">
   <h2>The speakers</h2>
@@ -260,25 +324,19 @@
   <p1>lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, sunt.</p1>
   <button type="button" class="btn btn-lg btn-success ">BuyTicket $100</button>
 </div>
+<!--reviews===========================================-->
 
-<!--you-tube will be linked here======================================-->
-
-<div class="youtube d-flex justify-content-center mt-5">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fit7BqpBDLE"
- title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- contact is here========================-->
-
-
-
-
-<!-- reviews will be here ===============-->
-
-
-
-<form class="reviews mt-5">
+<section class="Reviews-container gap100 ">
+  <a class="btn btn-primary mt-1" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">leave your comment</a>
+  <button class="btn btn-primary mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Customer Testimonials </button>
+  <button class="btn btn-primary mt-1" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Product Reviews</button>
+</p>
+<div class="row">
+  <div class="col-md-6">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        
+<form class="reviews">
   <h3>Your review is important!</h3>
   <div class="mb-3">
     <label for="Inputtext" class="form-label">Full Name</label>
@@ -291,80 +349,188 @@
   <div id="emailreview" class="form-text">We'll never share your email with anyone else.</div>
 </div>
 <div class="mb-3">
-  <label for="Inputtext"class="form-label">comment here</label>
-  <textarea name="Comments" id="comment" placeholder="put your reviews...">
+  <label for="inputtext">comments</label>
+  <textarea class="form-control" placeholder="Leave a comment here..." id="inputtext"></textarea>
    </textarea>
 </div>
 <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+ </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        <section class="Testimonials">
+          <h2>Testimonials</h2>
+          <div class="testimonial-container">
+            
+            <p class="text-center"></p>
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <img src="img/sunset-on-the-dark-beach-c2fedxht0egwvls6.jpg" class="user">
+              <blockquote> I have dry thirsty skin, and I never thought that any other 
+                product could compete with my favorite one, but I can tell you now that the Softness Bliss body
+                 lotion provides long lasting moisture to my skin</blockquote>
+                 <h5>Ammy</h5>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="img/sunset-on-the-dark-beach-c2fedxht0egwvls6.jpg" class="user">
+              <blockquote> My skin is radiant and supple. The dark spots and blemishes have begun to fade away. 
+                The texture of my skin has improved dramatically! This lemon-scented body wash coupled with the
+                 body lotion is light and refreshing.</blockquote>
+                 <h5>Roni</h5>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="img/sunset-on-the-dark-beach-c2fedxht0egwvls6.jpg" class="user">
+              <blockquote> My skin is radiant and supple. The dark spots and blemishes have begun to fade away. 
+                The texture of my skin has improved dramatically! This lemon-scented body wash coupled with the
+                 body lotion is light and refreshing.n</blockquote>
+                 <h5>Mazal</h5>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="img/sunset-on-the-dark-beach-c2fedxht0egwvls6.jpg" class="user">
+              <blockquote>I have dry thirsty skin, and I never thought that any other 
+                product could compete with my favorite one, but I can tell you now that the Softness Bliss body
+                 lotion provides long lasting moisture to my skin</blockquote>
+                 <h5>Ora</h5>
+            </div>
+          </div>
+          <div class= "order d-flex justify-content-center align-items-cente mt-5 ">
+            <button type="button" class="btn btn-lg btn-success">More </button>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--+++++++++++++++++++++++ Reviews-->
 
-<!--===========================================-->
-
-
-
-
-
-
-<!--our venue is here=================================================================-->
-
- 
-<div id="venue" class="slide d-flex align-items-center mt-5">
-      
-  <div class="row">
+<section id="Events" class="Events gap100">
+    <div class=" text-center justify-content-center ">
+   <h2>Events</h2> Our event is open   twice  a year!
+   Our main purpuse is to show how the plants and flowers are conneted to us naturally.
+    We are focused on offering just the best decorative designs and blessings, supported by an administration that is well disposed and provoked.
+    The majority of our clients are vital, our expert staff is committed to making your experience a lovely one. That is the reason we generally go the additional mile to make your botanical blessing immaculate. Give us a chance to be your first decision for flowers.
+     
+    </div>
+    <div class="venue-container  d-flex justify-content-center gap100">
+    <div class="row gap100">
+    <div class="col-md-6">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.0409943094332!2d-83.54610644935914!3d41.
+      654856279138635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b87b97e98bc07%3A0x4800daa7c851ae86!2sBitwise%20Toledo!
+      5e0!3m2!1sen!2sus!4v1665617122850!5m2!1sen!2sus"
+       width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     
-    <div id="venue-details" class="col-12 col-md-6">
-      <h2>The Venue</h2>
-      <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, repudiandae!</p1>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.0409943094332!2d-83.54610644935914!3d41.654856279138635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b87b97e98bc07%3A0x4800daa7c851ae86!2sBitwise%20Toledo!5e0!3m2!1sen!2sus!4v1665617122850!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="col-md-6">
+      <img src="img/pexels-belle-co-785080.jpg" class="img-fluid" alt="herbs sample">
     </div>
+  </div>
+  </div>
+</section>
 
-    <div id="venue-image" class="col-12 col-md-6 mt-5  p-5 ">
-      <img src="img/pexels-belle-co-785080.jpg" class="rounded float-end" alt="Bitwise office in Toledo, Ohio">
-    </div>
 
+<!--you-tube will be linked here======================================-->
+
+<div class="youtube d-flex justify-content-center mt-5">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Fit7BqpBDLE"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
+
+<!--==============about us=====================-->
+<section class="about mt-5">
+  <div  id="about" class="container d-flex justify-content-center gap100">
+    <div class="col-md-6 text-center">
+      <h2>About Us</h2>
+    <h5>Welcome To Our Website</h5>
+    <p>ABC-Flowers is 
+ Propelled by our affection for flowers and energy about nature, it is our obsession to
+       make creative and noteworthy plant and new flower courses of action. We trust that the best,
+        freshest flowers deliver the most noteworthy presenttations.</p>
+        <p> owe quite a bit of our prosperity to our extraordinary customers who move us to make 
+        unique and dazzling structures. Our master staff is here to enable all customers to pick the best flowers and plants for all events and purposes.></p>
+  </div>
 </div>
-
-
+</section>
 <!--contact ================-->
 
-<div class="contact-us"><h2> contact-us</h2>
-   
-  <div class="connect"><!--hero image is connected here-->
-  <div class="our-Adress">
-      <h>Our address</h>
-  <br>
-      <address>1300 Hill Ave,
-  <br>
-         Toledo, OH, 43604,</address>
-         <phone>phone: 866-442-0472,</phone>
-  <br>
-   <email> email: abcflowers@gmail.com</email>
+<div id="contact" class=" contact-container mt-3 pt-3 pb-5">
+  <div class="row">
+  <div class="col-lg-3 col-xs-12 address">
+  <h3 class="mt-lg-0 mt-sm-4">Contact Us</h3>
+  <p><i class="fa fa-map-marker">1300 Hill Ave,
+     Toledo, OH, 43604</i></p>
+  <p><i class="fa fa-phone">(111) 123-321</i></p>
+  <p><i class="fa fa-envelope-o">flowerabc@gmail.com</i></p>
+  </div>
   </div>
   </div>
 
 
+   <footer class="footer footer-expand-lg footer-dark bg-dark text-white ">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#contact">contact us</a></li>
+        </ul>
+      </div> 
+      <div class="footer-col">
+        <h4>Online Shopping</h4>
+        <ul>
+          <li><a href="#flowers">Flowers</a></li>
+          <li><a href="#skin-care">Skin care products</a></li>
+          <li><a href="#herbs">Herbs</a></li>
+        </ul>
+      </div>
+       <div class="footer-col">
+        <h4>Help</h4>
+        <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">My Orders</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+     <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <div class="col-lg-3 col-xs-12 links">
+      <h4 class="mt-lg-0 mt-sm-3">Visit Us</h4>
+      <ul class="m-0 p-0">
+      <li><a href="https://adefkri.github.io/Restaurant/">Mosobna</a></li>
+        <li><a href="https://adefkri.github.io/Eriluxury/">Eriluxury</a></li>
+      </ul>
+    </div>
+      </div>
 
-
-<footer class="footer d-flex  justify-content-center   align-items-center ">
-      <div class="footer-items">
-      <h4>follow us</h4>
-      <a href="https://github.com/adefkri" class="fa-brands fa-github lg" target="_blank"></a>
-      <a href="https://facebook.com/merina"  class="fa-brands fa-facebook lg" target="_blank"></a>
-      <a href = "https://instagram.com/skylimits" class="fa-brands fa-instagram lg" target="_blank"></a>
-      <a href="https://www.linkedin.com/in/merina/" class="fa-brands fa-linkedin lg" target="_blank"></a>
-  </div>
-  </footer>
-
-
-
-  
+      <div class="row mt-5">
+        <div class="col copyright text-center">
+          <p><small class="text-white">
+            All Rights Reserved &copy; ABC-Flower store 2022
+          </small></p>
+        </div>
+      </div>
 </div>
-
-    <h1></h1>
-
-    <!-- Optional JavaScript; choose one of the two! -->
+    </div>
+  </footer> 
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -374,5 +540,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+  </div>
   </body>
 </html>
